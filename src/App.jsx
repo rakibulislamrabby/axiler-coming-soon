@@ -28,6 +28,7 @@ const App = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+  const test=10;
 
   useEffect(() => {
     const animate = () => {
